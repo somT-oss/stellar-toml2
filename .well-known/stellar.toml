@@ -1,10 +1,11 @@
 VERSION="2.0.0"
 NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
+HOME_DOMAIN="stellar-toml2-production.up.railway.app"
 SIGNING_KEY="GD26YD5HBCFWLUJBQLHAFPNO442QQZNAYMMPRD4NWVOOIZ3Y3AH3IFWF"
 ACCOUNTS=["GD26YD5HBCFWLUJBQLHAFPNO442QQZNAYMMPRD4NWVOOIZ3Y3AH3IFWF"]
 WEB_AUTH_ENDPOINT="https://stellar-toml2-production.up.railway.app/auth"
 
 [DOCUMENTATION]
-ORG_NAME="Testnet Wallet"
-ORG_URL="https://somt-oss.github.io"
-ORG_OFFICIAL_EMAIL="somtochukwuuchegbu@gmail.com"
+ORG_NAME="Test Wallet"
+ORG_URL="https://stellar-toml2-production.up.railway.app"
+ORG_OFFICIAL_EMAIL="your@email.com"
