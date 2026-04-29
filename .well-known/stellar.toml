@@ -1,6 +1,5 @@
 VERSION="2.0.0"
 NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
-HOME_DOMAIN="stellar-toml2-production.up.railway.app"
 SIGNING_KEY="GD26YD5HBCFWLUJBQLHAFPNO442QQZNAYMMPRD4NWVOOIZ3Y3AH3IFWF"
 ACCOUNTS=["GD26YD5HBCFWLUJBQLHAFPNO442QQZNAYMMPRD4NWVOOIZ3Y3AH3IFWF"]
 WEB_AUTH_ENDPOINT="https://stellar-toml2-production.up.railway.app/auth"
@@ -9,3 +8,14 @@ WEB_AUTH_ENDPOINT="https://stellar-toml2-production.up.railway.app/auth"
 ORG_NAME="Test Wallet"
 ORG_URL="https://stellar-toml2-production.up.railway.app"
 ORG_OFFICIAL_EMAIL="your@email.com"
+
+[[CURRENCIES]]
+code="USDC"
+issuer="GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5"
+display_decimals=2
+name="USD Coin"
+desc="USDC on Stellar Testnet"
+is_asset_anchored=true
+anchor_asset_type="fiat"
+anchor_asset="USD"
+status="live"
